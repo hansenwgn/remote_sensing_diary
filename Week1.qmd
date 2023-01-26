@@ -1,0 +1,73 @@
+# Introduction to Remote Sensing
+
+## Summary
+
+To summarise, I'd want to convey what I learned in this chapter's introduction to remote sensing. I'll go through some of the key concepts, objectives, and lessons learned from the sentinel and landsat data practicals.
+
+### Objective
+
+To be able to operationalise remotely sensed Earth observation data for informing decisions on environmental hazards arising from a changing climate, specifically in relation to (a) urban areas and (b) future urban sustainability.
+
+### Key Concepts
+
+#### Remote Sensing
+
+Refers to obtaining information about objects or areas at the Earth's surface without being in direct contact with the object or area. Acquiring information from the distance.
+
+Two types of sensors:
+
+-   **Passive**. Use energy that is available, usually detecting reflected energy from the sun. Energy is in electromagnetic. Such as: human eye, camera, satellite sensor.
+
+-   **Active**. Actively emits electromagnetic waves and then waits to receive. Have an energy source for illumination. Such as: radar, x-ray, LiDAR.
+
+#### Electromagnetic Waves
+
+Electromagnetic radiation (has both electric and magnetic fields) propagates (moves) as waves.
+
+**Electromagnetic waves interact with:**
+
+1.  Earth's surface
+
+-   Energy being absorbed by the surface
+-   Energy being transmitted through the surface
+
+2.  Atmosphere
+
+Energy can be scattered by particles in the atmosphere. Three types of atmospheric scattering:
+
+-   Rayleigh = particles are very small compared to the wavelength
+-   Mie = particles are the same size compared to the wavelength
+-   Non selective = particles are much larger than the wavelength
+
+![Electromagnetic waves](image/electro.png){width="60%"}
+
+We can apply this principle to examples from our own lives, such as reflections on why the sky is blue. Why is the sky above the moon black? An ever-evolving sensor capable of piercing weather/cloud barriers to land capture.
+
+#### Four resolutions of remotely sensed data
+
+1.  Spatial = the size of the raster grid per pixel (e.g. 20cm or 30m)
+2.  Spectral = the number of bands it records data in
+3.  Temporal = the time it revisits (e.g. daily, every 7 days, on demand)
+4.  Radiometric = identify differences in light or reflectance, in practice this is the range of possible values.
+
+### Sentinel Data (practical with QGIS and SNAP)
+
+I download the sentinel data from [Copernicus Open Access Hub](https://scihub.copernicus.eu/dhus/#/home) and get Jakarta, Indonesia area. Sentinel offers a variety of products. We must understand that each may have distinct bands, resolutions, and core wavelengths.
+
+The image below is a true colour composite using a multi band colour render type and merging all bands in QGIS. Along with a graph representation of the spectral signature.
+
+![Jakarta sentinel data in QGIS](image/jak1.png)
+
+Image below shows the resampling masking of Jakarta sentinel data used SNAP application. We can do a variety of things with Sentinel's remote sensing data using SNAP. We can manipulate colours, perform statistical analysis and plotting, and transform tasselled caps. We can calculate the brightness, greeness, and wetness of an image to assist us recognise and identify soil, green plants, and moisture.
+
+![Jakarta sentinel data in SNAP](image/jak2.png)
+
+## Applications
+
+I look at how the data from the sentinel has been used and applied in 'Sentinel-2 Data for Land Cover/Use Mapping: A Review' literature.    
+
+## Reflection
+
+## Question
+
+1.  How to combine {width="60%"} and fig-align for caption/image in quarto image

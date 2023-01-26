@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Learning Diary",
+    "section": "",
+    "text": "1 Hi everyone! I’m Hansen from Indonesia\n\nI got my bachelor degree in Geological Engineering. My interests are urban analytics, data analytics, product management and public policy.\nI worked as a Business Analyst in Data & Analytics Division in Jakarta Smart City, Provincial Government of Jakarta. My role is to provide comprehensive and strategic analysis related to citizen aspiration, flood management, traffic condition, air quality, and other city data. One of my biggest projects is https://corona.jakarta.go.id/en, it’s the official Covid-19 Jakarta website that responses to the Covid-19 pandemic. I created and developed the website’s dashboard and features with my team.\nI then moved and worked as a Product Manager at Digital Transformation Office (DTO), Ministry of Health of the Republic of Indonesia. My role is to build digital product, application, and platform for delivering better health services in Indonesia. I was given the responsibility to lead the vaccination product stream in PeduliLindungi, the government super-app for COVID-19 alleviation. I also leads the revamp of the official Ministry of Health website about ‘one data’ https://satudata.kemkes.go.id/ that aims to develop the Indonesian health data center that provides interactive information in a dashboard form. You can read my story.\nI enjoy participating in and assisting the government using data analytics and technology. The primary reason is that it affects millions of individuals. A single good government initiative or policy can assist a large number of individuals. It is crucial to consider both the function of the government bureaucracy and the ability of technology to speed up policy implementation when developing and using technology and data within the context of the government.\n\n\n\nHad a chance meeting with Assemblyman Tom Lackey’s Chief of Staff, George Andrews, California, United States\n\n\nIn my free time, I love playing piano, running, writing, and cycling. You can see my writings in my Medium."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  Hi everyone! I’m Hansen",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "Week1.html#summary",
+    "href": "Week1.html#summary",
+    "title": "2  Introduction to Remote Sensing",
+    "section": "2.1 Summary",
+    "text": "2.1 Summary\nTo summarise, I’d want to convey what I learned in this chapter’s introduction to remote sensing. I’ll go through some of the key concepts, objectives, and lessons learned from the sentinel and landsat data practicals.\n\n2.1.1 Objective\nTo be able to operationalise remotely sensed Earth observation data for informing decisions on environmental hazards arising from a changing climate, specifically in relation to (a) urban areas and (b) future urban sustainability.\n\n\n2.1.2 Key Concepts\n\n2.1.2.1 Remote Sensing\nRefers to obtaining information about objects or areas at the Earth’s surface without being in direct contact with the object or area. Acquiring information from the distance.\nTwo types of sensors:\n\nPassive. Use energy that is available, usually detecting reflected energy from the sun. Energy is in electromagnetic. Such as: human eye, camera, satellite sensor.\nActive. Actively emits electromagnetic waves and then waits to receive. Have an energy source for illumination. Such as: radar, x-ray, LiDAR.\n\n\n\n2.1.2.2 Electromagnetic Waves\nElectromagnetic radiation (has both electric and magnetic fields) propagates (moves) as waves.\nElectromagnetic waves interact with:\n\nEarth’s surface\n\n\nEnergy being absorbed by the surface\nEnergy being transmitted through the surface\n\n\nAtmosphere\n\nEnergy can be scattered by particles in the atmosphere. Three types of atmospheric scattering:\n\nRayleigh = particles are very small compared to the wavelength\nMie = particles are the same size compared to the wavelength\nNon selective = particles are much larger than the wavelength\n\n\n\n\nElectromagnetic waves\n\n\nWe can apply this principle to examples from our own lives, such as reflections on why the sky is blue. Why is the sky above the moon black? An ever-evolving sensor capable of piercing weather/cloud barriers to land capture.\n\n\n2.1.2.3 Four resolutions of remotely sensed data\n\nSpatial = the size of the raster grid per pixel (e.g. 20cm or 30m)\nSpectral = the number of bands it records data in\nTemporal = the time it revisits (e.g. daily, every 7 days, on demand)\nRadiometric = identify differences in light or reflectance, in practice this is the range of possible values.\n\n\n\n\n2.1.3 Sentinel Data (practical with QGIS and SNAP)\nI download the sentinel data from Copernicus Open Access Hub and get Jakarta, Indonesia area. Sentinel offers a variety of products. We must understand that each may have distinct bands, resolutions, and core wavelengths.\nThe image below is a true colour composite using a multi band colour render type and merging all bands in QGIS. Along with a graph representation of the spectral signature.\n\n\n\nJakarta sentinel data in QGIS\n\n\nImage below shows the resampling masking of Jakarta sentinel data used SNAP application. We can do a variety of things with Sentinel’s remote sensing data using SNAP. We can manipulate colours, perform statistical analysis and plotting, and transform tasselled caps. We can calculate the brightness, greeness, and wetness of an image to assist us recognise and identify soil, green plants, and moisture.\n\n\n\nJakarta sentinel data in SNAP"
+  },
+  {
+    "objectID": "Week1.html#applications",
+    "href": "Week1.html#applications",
+    "title": "2  Introduction to Remote Sensing",
+    "section": "2.2 Applications",
+    "text": "2.2 Applications\nI look at how the data from the sentinel has been used and applied in ‘Sentinel-2 Data for Land Cover/Use Mapping: A Review’ literature."
+  },
+  {
+    "objectID": "Week1.html#reflection",
+    "href": "Week1.html#reflection",
+    "title": "2  Introduction to Remote Sensing",
+    "section": "2.3 Reflection",
+    "text": "2.3 Reflection"
+  },
+  {
+    "objectID": "Week1.html#question",
+    "href": "Week1.html#question",
+    "title": "2  Introduction to Remote Sensing",
+    "section": "2.4 Question",
+    "text": "2.4 Question\n\nHow to combine {width=“60%”} and fig-align for caption/image in quarto image"
+  }
+]

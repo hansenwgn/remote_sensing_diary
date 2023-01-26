@@ -1,14 +1,14 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Learning Diary"
-  author: "Jane Doe"
+  author: "Hansen Wiguna"
   date: "1/19/2023"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - Week1.qmd
     - references.qmd
 
 bibliography: references.bib
