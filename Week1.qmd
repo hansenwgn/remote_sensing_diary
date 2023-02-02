@@ -39,7 +39,7 @@ Energy can be scattered by particles in the atmosphere. Three types of atmospher
 -   Mie = particles are the same size compared to the wavelength
 -   Non selective = particles are much larger than the wavelength
 
-![Electromagnetic waves](image/electro.png){width="60%"}
+![Electromagnetic waves [@aggarwal]](image/electro.png){width="60%"}
 
 We can apply this principle to examples from our own lives, such as reflections on why the sky is blue. Why is the sky above the moon black? An ever-evolving sensor capable of piercing weather/cloud barriers to land capture.
 
@@ -64,9 +64,15 @@ Image below shows the resampling masking of Jakarta sentinel data used SNAP appl
 
 ## Applications
 
-I look at how the data from the sentinel has been used and applied in 'Sentinel-2 Data for Land Cover/Use Mapping: A Review' literature.    
+I examine how sentinel data has been used and applied in the 'Sentinel-2 Data for Land Cover/Use Mapping: A Review' literature. Human activities and natural disasters such as urbanisation, agriculture development, flooding, and fire are rapidly modifying the land cover. Learning this concept helped me realise how critical it is to monitor all of these factors for the long-term viability of human existence. The advancement of satellite remote sensing technologies has transformed methods of monitoring natural and human resources on the Earth's surface. Sentinel-2 satellites are the second constellation of ESA Sentinel missions and are equipped with multispectral sensors. The Sentinel-2 mission's primary goal is to provide high resolution satellite data for land cover/use monitoring, climate change monitoring, and disaster monitoring, as well as to supplement other satellite missions such as Landsat.
+
+This journal is particularly intriguing since it examines the contribution of ESA Sentinel-2 data to land cover/use classification and the performance of Sentinel-2 data in various applications (e.g., forest, urban area and natural hazard monitoring). The current research demonstrates that Sentinel-2 has a favourable influence on land cover/use monitoring, notably crop, forest, urban area, and water resource monitoring. The open access policy encourages the increased use of Sentinel-2 data, particularly in developing nations with limited financial means for the collecting of remotely sensed data.
+
+Porphyry copper deposits (PCDs) supply three-quarters of the world's Cu (Copper) (Sillitoe) and are characterized by hydrothermal alteration and mineralization zones. Remote sensing has been used for hydrothermally altered minerals mapping and mineral prospecting. Sentinel-2A can extract hydroxyl-bearing minerals and iron oxides (Hu Bin). The combinations of bands of the Sentinel may detect specific zones that associated with mineralization prospects. The utilisation of this remote sensing data is highly valuable in assessing the potential of the mineralization zone before undertaking operational or costly production measures.
 
 ## Reflection
+
+From this new concept that I learned, I'm thinking to apply the sentinel data analysis to monitor the Kalimantan Island in Indonesia. Indonesia is in the process of moving the capital city from Jakarta (Java Island) to Kalimantan Island ([website](https://ikn.go.id/en)). One of the main principles of the new capital city (IKN) project is designed according to nature. Over 75% of the IKN's Governmental Zone will remain green. We can utilise remote sensing data to monitor land cover/use, notably crop, forest, urban area, and water resource monitoring. Monitoring city development is difficult, so if it can be aided, particularly in an automated scheme, through the use of remote sensing data, it will substantially simplify the government's task.
 
 ## Question
 

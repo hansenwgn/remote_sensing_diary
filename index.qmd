@@ -1,15 +1,15 @@
-# Hi everyone! I'm Hansen from Indonesia :D
+# Hi everyone! I'm Hansen from Indonesia {.unnumbered}
 
 ![](image/hw.png)
 
-I got my bachelor degree in Geological Engineering. My interests are urban analytics, data analytics, product management and public policy. 
+I got my bachelor degree in Geological Engineering. My interests are urban analytics, data analytics, product management and public policy.
 
-I worked as a Business Analyst in Data & Analytics Division in Jakarta Smart City, Provincial Government of Jakarta. My role is to provide comprehensive and strategic analysis related to citizen aspiration, flood management, traffic condition, air quality, and other city data. One of my biggest projects is <https://corona.jakarta.go.id/en>, it's the official Covid-19 Jakarta website that responses to the Covid-19 pandemic. I created and developed the website’s dashboard and features with my team. 
+I worked as a Business Analyst in Data & Analytics Division in Jakarta Smart City, Provincial Government of Jakarta. My role is to provide comprehensive and strategic analysis related to citizen aspiration, flood management, traffic condition, air quality, and other city data. One of my biggest projects is <https://corona.jakarta.go.id/en>, it's the official Covid-19 Jakarta website that responses to the Covid-19 pandemic. I created and developed the website's dashboard and features with my team.
 
-I then moved and worked as a Product Manager at Digital Transformation Office (DTO), Ministry of Health of the Republic of Indonesia. My role is to build digital product, application, and platform for delivering better health services in Indonesia. I was given the responsibility to lead the vaccination product stream in [PeduliLindungi](https://www.pedulilindungi.id/), the government super-app for COVID-19 alleviation. I also leads the revamp of the official Ministry of Health website about ‘one data’ <https://satudata.kemkes.go.id/>  that aims to develop the Indonesian health data center that provides interactive information in a dashboard form. You can read my [story](https://medium.com/@dtokemkes/from-data-analytics-to-product-management-in-the-government-context-e5ff7b74c7b9).
+I then moved and worked as a Product Manager at Digital Transformation Office (DTO), Ministry of Health of the Republic of Indonesia. My role is to build digital product, application, and platform for delivering better health services in Indonesia. I was given the responsibility to lead the vaccination product stream in [PeduliLindungi](https://www.pedulilindungi.id/), the government super-app for COVID-19 alleviation. I also leads the revamp of the official Ministry of Health website about 'one data' <https://satudata.kemkes.go.id/> that aims to develop the Indonesian health data center that provides interactive information in a dashboard form. You can read my [story](https://medium.com/@dtokemkes/from-data-analytics-to-product-management-in-the-government-context-e5ff7b74c7b9).
 
 I enjoy participating in and assisting the government using data analytics and technology. The primary reason is that it affects millions of individuals. A single good government initiative or policy can assist a large number of individuals. It is crucial to consider both the function of the government bureaucracy and the ability of technology to speed up policy implementation when developing and using technology and data within the context of the government.
 
-![Had a chance meeting with Assemblyman Tom Lackey's Chief of Staff, George Andrews, California, United States](image/group.png) 
+![Had a chance meeting with Assemblyman Tom Lackey's Chief of Staff, George Andrews, California, United States](image/group.png)
 
-In my free time, I love playing piano, running, writing, and cycling. You can see my writings in my [Medium](https://hansenwgn.medium.com/). 
+In my free time, I love playing piano, running, writing, and cycling. You can see my writings in my [Medium](https://hansenwgn.medium.com/).
