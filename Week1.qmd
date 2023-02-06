@@ -76,4 +76,4 @@ From this new concept that I learned, I'm thinking to apply the sentinel data an
 
 ## Question
 
-1.  How to combine {width="60%"} and fig-align for caption/image in quarto image.
+1.  How to combine {width="60%"} and fig-align for caption/image in quarto image..
