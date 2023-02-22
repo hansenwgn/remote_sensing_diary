@@ -10,7 +10,7 @@ xaringanExtra::embed_xaringan(
   ratio = "16:9") 
 ```
 
-## Credits to my lecturer Andy and some of the resources
+## Credits to Andy, my lecturer and some of the resources
 
 -   [Xaringan operation instruction](https://andrewmaclachlan.github.io/CASA0023/2_portfolio.html)
 
