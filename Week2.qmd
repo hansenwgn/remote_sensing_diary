@@ -1,4 +1,4 @@
-# Week 2: Xaringan and Quarto
+# Xaringan and Quarto
 
 ## Xaringan presentation
 

@@ -39,7 +39,7 @@ Energy can be scattered by particles in the atmosphere. Three types of atmospher
 -   Mie = particles are the same size compared to the wavelength
 -   Non selective = particles are much larger than the wavelength
 
-![Electromagnetic waves [@aggarwal]](image/electro.png){width="60%"}
+![Electromagnetic waves](image/electro.png){width="60%"}
 
 We can apply this principle to examples from our own lives, such as reflections on why the sky is blue. Why is the sky above the moon black? An ever-evolving sensor capable of piercing weather/cloud barriers to land capture.
 
