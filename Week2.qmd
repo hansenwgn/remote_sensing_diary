@@ -7,7 +7,7 @@ My presentation about Landsat 8 is available [here](https://hansenwgn.github.io/
 ```{r, echo = FALSE, out.width='40%'}
 xaringanExtra::embed_xaringan(
   url = "https://hansenwgn.github.io/xaringan/#1",
-  ratio = "16:9")
+  ratio = "16:9") 
 ```
 
 ## Credits to my lecturer Andy and some of the resources
