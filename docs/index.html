@@ -9,7 +9,7 @@
 <meta name="author" content="Hansen Wiguna">
 <meta name="dcterms.date" content="2023-01-19">
 
-<title>Learning Diary</title>
+<title>Remote Sensing Cities and Environments</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./Week1.html" rel="next">
+<link href="./image/bigben.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -43,11 +44,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 20,
   "language": {
     "search-no-results-text": "No results",
@@ -65,13 +66,79 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./image/bigben.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Remote Sensing Cities and Environments</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://id.linkedin.com/in/hansenwiguna"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/hansenwgn/"><i class="bi bi-instagram" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/hansenwgn/remote_sensing_diary"><i class="bi bi-github" role="img" aria-label="Source Code">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item dropdown  compact">
+    <a class="nav-link dropdown-toggle" href="#" id="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-share" role="img" aria-label="Share">
+</i> 
+ <span class="menu-text"></span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="">    
+        <li>
+    <a class="dropdown-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="dropdown-text">LinkedIn</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://twitter.com/intent/tweet?url=|url|"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="dropdown-text">Twitter</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|"><i class="bi bi-facebook" role="img">
+</i> 
+ <span class="dropdown-text">Facebook</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Learning Diary</h1>
+      <h1 class="quarto-secondary-nav-title">Remote Sensing Cities and Environments</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -79,14 +146,9 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Learning Diary</a> 
-    </div>
-      </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -111,6 +173,11 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./Week3.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Remote Sensing Data (Correction &amp; Data Joining)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
   </div>
 </li>
@@ -123,16 +190,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#hi-everyone-im-hansen-from-indonesia" id="toc-hi-everyone-im-hansen-from-indonesia" class="nav-link active" data-scroll-target="#hi-everyone-im-hansen-from-indonesia">Hi everyone! I’m Hansen from Indonesia</a></li>
+  <li><a href="#hi-everyone-im-hansen-from-indonesia" id="toc-hi-everyone-im-hansen-from-indonesia" class="nav-link active" data-scroll-target="#hi-everyone-im-hansen-from-indonesia">Hi everyone! I’m Hansen from Indonesia</a>
+  <ul class="collapse">
+  <li><a href="#about-me" id="toc-about-me" class="nav-link" data-scroll-target="#about-me">About me</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/hansenwgn/remote_sensing_diary/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/hansenwgn/remote_sensing_diary/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Learning Diary</h1>
+<h1 class="title d-none d-lg-block">Remote Sensing Cities and Environments</h1>
 </div>
 
 
@@ -161,20 +231,26 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="hi-everyone-im-hansen-from-indonesia" class="level1 unnumbered">
 <h1 class="unnumbered">Hi everyone! I’m Hansen from Indonesia</h1>
-<p><img src="image/hw.png" class="img-fluid"></p>
+<p><img src="image/hw.png" class="img-fluid"><br>
+</p>
+<section id="about-me" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="about-me">About me</h2>
 <p>I got my bachelor degree in Geological Engineering. My interests are urban analytics, data analytics, product management and public policy.</p>
 <p>I worked as a Business Analyst in Data &amp; Analytics Division in Jakarta Smart City, Provincial Government of Jakarta. My role is to provide comprehensive and strategic analysis related to citizen aspiration, flood management, traffic condition, air quality, and other city data. One of my biggest projects is <a href="https://corona.jakarta.go.id/en" class="uri">https://corona.jakarta.go.id/en</a>, it’s the official Covid-19 Jakarta website that responses to the Covid-19 pandemic. I created and developed the website’s dashboard and features with my team.</p>
 <p>I then moved and worked as a Product Manager at Digital Transformation Office (DTO), Ministry of Health of the Republic of Indonesia. My role is to build digital product, application, and platform for delivering better health services in Indonesia. I was given the responsibility to lead the vaccination product stream in <a href="https://www.pedulilindungi.id/">PeduliLindungi</a>, the government super-app for COVID-19 alleviation. I also leads the revamp of the official Ministry of Health website about ‘one data’ <a href="https://satudata.kemkes.go.id/" class="uri">https://satudata.kemkes.go.id/</a> that aims to develop the Indonesian health data center that provides interactive information in a dashboard form. You can read my <a href="https://medium.com/@dtokemkes/from-data-analytics-to-product-management-in-the-government-context-e5ff7b74c7b9">story</a>.</p>
 <p>I enjoy participating in and assisting the government using data analytics and technology. The primary reason is that it affects millions of individuals. A single good government initiative or policy can assist a large number of individuals. It is crucial to consider both the function of the government bureaucracy and the ability of technology to speed up policy implementation when developing and using technology and data within the context of the government.</p>
+<center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="image/group.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Had a chance meeting with Assemblyman Tom Lackey’s Chief of Staff, George Andrews, California, United States</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Had a chance meeting with Assemblyman Tom Lackey's Chief of Staff, George Andrews, California, United States</figcaption><p></p>
 </figure>
 </div>
+</center>
 <p>In my free time, I love playing piano, running, writing, and cycling. You can see my writings in my <a href="https://hansenwgn.medium.com/">Medium</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

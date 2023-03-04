@@ -1,0 +1,17 @@
+TY  - JOUR
+AU  - Hadjimitsis, Diofantos G.
+AU  - Clayton, Chris
+PY  - 2009
+DA  - 2009/12/01
+TI  - Assessment of temporal variations of water quality in inland water bodies using atmospheric corrected satellite remotely sensed image data
+JO  - Environmental Monitoring and Assessment
+SP  - 281
+EP  - 292
+VL  - 159
+IS  - 1
+AB  - Although there have been many studies conducted on the use of satellite remote sensing for water quality monitoring and assessment in inland water bodies, relatively few studies have considered the problem of atmospheric intervention of the satellite signal. The problem is especially significant when using time series multi-spectral satellite data to monitor water quality surveillance in inland waters such as reservoirs, lakes, and dams because atmospheric effects constitute the majority of the at-satellite reflectance over water. For the assessment of temporal variations of water quality, the use of multi-date satellite images is required so atmospheric corrected image data must be determined. The aim of this study is to provide a simple way of monitoring and assessing temporal variations of water quality in a set of inland water bodies using an earth  observation- based approach. The proposed methodology is based on the development of an image-based algorithm which consists of a selection of sampling area on the image (outlet), application of masking and convolution image processing filter, and application of the darkest pixel atmospheric correction. The proposed method has been applied in two different geographical areas, in UK and Cyprus. Mainly, the method has been applied to a series of eight archived Landsat-5 TM images acquired from March 1985 up to November 1985 of the Lower Thames Valley area in the West London (UK) consisting of large water treatment reservoirs. Finally, the method is further tested to the Kourris Dam in Cyprus. It has been found that atmospheric correction is essential in water quality assessment studies using satellite remotely sensed imagery since it improves significantly the water reflectance enabling effective water quality assessment to be made.
+SN  - 1573-2959
+UR  - https://doi.org/10.1007/s10661-008-0629-3
+DO  - 10.1007/s10661-008-0629-3
+ID  - Hadjimitsis2009
+ER  - 

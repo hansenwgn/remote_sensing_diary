@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Diary - 1&nbsp; Introduction to Remote Sensing</title>
+<title>Remote Sensing Cities and Environments - 1&nbsp; Introduction to Remote Sensing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -51,6 +51,7 @@ div.csl-indent {
 <meta name="quarto:offset" content="./">
 <link href="./Week2.html" rel="next">
 <link href="./index.html" rel="prev">
+<link href="./image/bigben.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,11 +62,11 @@ div.csl-indent {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 20,
   "language": {
     "search-no-results-text": "No results",
@@ -83,10 +84,76 @@ div.csl-indent {
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./image/bigben.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Remote Sensing Cities and Environments</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://id.linkedin.com/in/hansenwiguna"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/hansenwgn/"><i class="bi bi-instagram" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/hansenwgn/remote_sensing_diary"><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item dropdown  compact">
+    <a class="nav-link dropdown-toggle" href="#" id="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-share" role="img">
+</i> 
+ <span class="menu-text"></span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="">    
+        <li>
+    <a class="dropdown-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|"><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="dropdown-text">LinkedIn</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://twitter.com/intent/tweet?url=|url|"><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="dropdown-text">Twitter</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|"><i class="bi bi-facebook" role="img">
+</i> 
+ <span class="dropdown-text">Facebook</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-reader-toggle nav-link" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
       <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Remote Sensing</span></h1>
@@ -97,14 +164,9 @@ div.csl-indent {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Learning Diary</a> 
-    </div>
-      </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -125,6 +187,11 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Week2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Xaringan and Quarto</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Week3.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Remote Sensing Data (Correction &amp; Data Joining)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -151,7 +218,7 @@ div.csl-indent {
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="toc-section-number">1.3</span>  Reflection</a></li>
   <li><a href="#question" id="toc-question" class="nav-link" data-scroll-target="#question"><span class="toc-section-number">1.4</span>  Question</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/hansenwgn/remote_sensing_diary/edit/main/Week1.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/hansenwgn/remote_sensing_diary/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -211,12 +278,14 @@ div.csl-indent {
 <li>Mie = particles are the same size compared to the wavelength</li>
 <li>Non selective = particles are much larger than the wavelength</li>
 </ul>
+<center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="image/electro.png" class="img-fluid figure-img" style="width:60.0%"></p>
 <p></p><figcaption class="figure-caption">Electromagnetic waves</figcaption><p></p>
 </figure>
 </div>
+</center>
 <p>We can apply this principle to examples from our own lives, such as reflections on why the sky is blue. Why is the sky above the moon black? An ever-evolving sensor capable of piercing weather/cloud barriers to land capture.</p>
 </section>
 <section id="four-resolutions-of-remotely-sensed-data" class="level4" data-number="1.1.2.3">
@@ -233,30 +302,34 @@ div.csl-indent {
 <h3 data-number="1.1.3" class="anchored" data-anchor-id="sentinel-data-practical-with-qgis-and-snap"><span class="header-section-number">1.1.3</span> Sentinel Data (practical with QGIS and SNAP)</h3>
 <p>I download the sentinel data from <a href="https://scihub.copernicus.eu/dhus/#/home">Copernicus Open Access Hub</a> and get Jakarta, Indonesia area. Sentinel offers a variety of products. We must understand that each may have distinct bands, resolutions, and core wavelengths.</p>
 <p>The image below is a true colour composite using a multi band colour render type and merging all bands in QGIS. Along with a graph representation of the spectral signature.</p>
+<center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="image/jak1.png" class="img-fluid figure-img"></p>
+<p><img src="image/jak1.png" class="img-fluid figure-img" style="width:80.0%"></p>
 <p></p><figcaption class="figure-caption">Jakarta sentinel data in QGIS</figcaption><p></p>
 </figure>
 </div>
+</center>
 <p>Image below shows the resampling masking of Jakarta sentinel data used SNAP application. We can do a variety of things with Sentinel’s remote sensing data using SNAP. We can manipulate colours, perform statistical analysis and plotting, and transform tasselled caps. We can calculate the brightness, greeness, and wetness of an image to assist us recognise and identify soil, green plants, and moisture.</p>
+<center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="image/jak2.png" class="img-fluid figure-img"></p>
+<p><img src="image/jak2.png" class="img-fluid figure-img" style="width:60.0%"></p>
 <p></p><figcaption class="figure-caption">Jakarta sentinel data in SNAP</figcaption><p></p>
 </figure>
 </div>
+</center>
 </section>
 </section>
 <section id="applications" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">1.2</span> Applications</h2>
-<p>I examine how sentinel data has been used and applied in the ‘Sentinel-2 Data for Land Cover/Use Mapping: A Review’ literature <span class="citation" data-cites="phiri2020">(<a href="references.html#ref-phiri2020" role="doc-biblioref">Phiri et al. 2020</a>)</span>. Human activities and natural disasters such as urbanisation, agriculture development, flooding, and fire are rapidly modifying the land cover. Learning this concept helped me realise how critical it is to monitor all of these factors for the long-term viability of human existence. The advancement of satellite remote sensing technologies has transformed methods of monitoring natural and human resources on the Earth’s surface. Sentinel-2 satellites are the second constellation of ESA Sentinel missions and are equipped with multispectral sensors. The Sentinel-2 mission’s primary goal is to provide high resolution satellite data for land cover/use monitoring, climate change monitoring, and disaster monitoring, as well as to supplement other satellite missions such as Landsat.</p>
+<p>I examine how sentinel data has been used and applied in the ‘Sentinel-2 Data for Land Cover/Use Mapping: A Review’ literature <span class="citation" data-cites="phiri2020">(<a href="references.html#ref-phiri2020" role="doc-biblioref">Phiri <em>et al.</em>, 2020</a>)</span>. Human activities and natural disasters such as urbanisation, agriculture development, flooding, and fire are rapidly modifying the land cover. Learning this concept helped me realise how critical it is to monitor all of these factors for the long-term viability of human existence. The advancement of satellite remote sensing technologies has transformed methods of monitoring natural and human resources on the Earth’s surface. Sentinel-2 satellites are the second constellation of ESA Sentinel missions and are equipped with multispectral sensors. The Sentinel-2 mission’s primary goal is to provide high resolution satellite data for land cover/use monitoring, climate change monitoring, and disaster monitoring, as well as to supplement other satellite missions such as Landsat.</p>
 <p>This journal is particularly intriguing since it examines the contribution of ESA Sentinel-2 data to land cover/use classification and the performance of Sentinel-2 data in various applications (e.g., forest, urban area and natural hazard monitoring). The current research demonstrates that Sentinel-2 has a favourable influence on land cover/use monitoring, notably crop, forest, urban area, and water resource monitoring. The open access policy encourages the increased use of Sentinel-2 data, particularly in developing nations with limited financial means for the collecting of remotely sensed data.</p>
-<p>Porphyry copper deposits (PCDs) supply three-quarters of the world’s Cu (Copper) <span class="citation" data-cites="sillitoe2010">(<a href="references.html#ref-sillitoe2010" role="doc-biblioref">Sillitoe 2010</a>)</span> and are characterized by hydrothermal alteration and mineralization zones. Remote sensing has been used for hydrothermally altered minerals mapping and mineral prospecting. Sentinel-2A can extract hydroxyl-bearing minerals and iron oxides <span class="citation" data-cites="hu2018">(<a href="references.html#ref-hu2018" role="doc-biblioref">Hu et al. 2018</a>)</span>. The combinations of bands of the Sentinel may detect specific zones that associated with mineralization prospects. The utilisation of this remote sensing data is highly valuable in assessing the potential of the mineralization zone before undertaking operational or costly production measures.</p>
+<p>Porphyry copper deposits (PCDs) supply three-quarters of the world’s Cu (Copper) <span class="citation" data-cites="sillitoe2010">(<a href="references.html#ref-sillitoe2010" role="doc-biblioref">Sillitoe, 2010</a>)</span> and are characterized by hydrothermal alteration and mineralization zones. Remote sensing has been used for hydrothermally altered minerals mapping and mineral prospecting. Sentinel-2A can extract hydroxyl-bearing minerals and iron oxides <span class="citation" data-cites="hu2018">(<a href="references.html#ref-hu2018" role="doc-biblioref">Hu <em>et al.</em>, 2018</a>)</span>. The combinations of bands of the Sentinel may detect specific zones that associated with mineralization prospects. The utilisation of this remote sensing data is highly valuable in assessing the potential of the mineralization zone before undertaking operational or costly production measures.</p>
 </section>
 <section id="reflection" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">1.3</span> Reflection</h2>
-<p>From this new concept that I learned, I’m thinking to apply the sentinel data analysis to monitor the Kalimantan Island in Indonesia. Indonesia is in the process of moving the capital city from Jakarta (Java Island) to Kalimantan Island (<a href="https://ikn.go.id/en">website</a>). One of the main principles of the new capital city (IKN) project is designed according to nature. Over 75% of the IKN’s Governmental Zone will remain green <span class="citation" data-cites="ikn-ib2021">(<a href="references.html#ref-ikn-ib2021" role="doc-biblioref"><span>“IKN - Ibu Kota Negara”</span> 2021</a>)</span>. We can utilise remote sensing data to monitor land cover/use, notably crop, forest, urban area, and water resource monitoring. Monitoring city development is difficult, so if it can be aided, particularly in an automated scheme, through the use of remote sensing data, it will substantially simplify the government’s task.</p>
+<p>From this new concept that I learned, I’m thinking to apply the sentinel data analysis to monitor the Kalimantan Island in Indonesia. Indonesia is in the process of moving the capital city from Jakarta (Java Island) to Kalimantan Island (<a href="https://ikn.go.id/en">website</a>). One of the main principles of the new capital city (IKN) project is designed according to nature. Over 75% of the IKN’s Governmental Zone will remain green <span class="citation" data-cites="ikn-ib2021">(<a href="references.html#ref-ikn-ib2021" role="doc-biblioref"><span>“IKN - ibu kota negara,”</span> 2021</a>)</span>. We can utilise remote sensing data to monitor land cover/use, notably crop, forest, urban area, and water resource monitoring. Monitoring city development is difficult, so if it can be aided, particularly in an automated scheme, through the use of remote sensing data, it will substantially simplify the government’s task.</p>
 </section>
 <section id="question" class="level2" data-number="1.4">
 <h2 data-number="1.4" class="anchored" data-anchor-id="question"><span class="header-section-number">1.4</span> Question</h2>
@@ -265,18 +338,18 @@ div.csl-indent {
 </ol>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="refs" class="references csl-bib-body" role="doc-bibliography" style="display: none">
 <div id="ref-hu2018" class="csl-entry" role="doc-biblioentry">
-Hu, Bin, Yongyang Xu, Bo Wan, Xincai Wu, and Guihua Yi. 2018. <span>“Hydrothermally Altered Mineral Mapping Using Synthetic Application of Sentinel-2A MSI, ASTER and Hyperion Data in the Duolong Area, Tibetan Plateau, China.”</span> <em>Ore Geology Reviews</em> 101: 384–97. https://doi.org/<a href="https://doi.org/10.1016/j.oregeorev.2018.07.017">https://doi.org/10.1016/j.oregeorev.2018.07.017</a>.
+Hu, B. <em>et al.</em> (2018) <span>“Hydrothermally altered mineral mapping using synthetic application of sentinel-2A MSI, ASTER and hyperion data in the duolong area, tibetan plateau, china,”</span> <em>Ore Geology Reviews</em>, 101, pp. 384–397. doi: <a href="https://doi.org/10.1016/j.oregeorev.2018.07.017">https://doi.org/10.1016/j.oregeorev.2018.07.017</a>.
 </div>
 <div id="ref-ikn-ib2021" class="csl-entry" role="doc-biblioentry">
-<span>“IKN - Ibu Kota Negara.”</span> 2021. <a href="https://ikn.go.id/">https://ikn.go.id/</a>.
+<span>“IKN - ibu kota negara”</span> (2021). Available at: <a href="https://ikn.go.id/">https://ikn.go.id/</a>.
 </div>
 <div id="ref-phiri2020" class="csl-entry" role="doc-biblioentry">
-Phiri, Darius, Matamyo Simwanda, Serajis Salekin, Vincent R. Nyirenda, Yuji Murayama, and Manjula Ranagalage. 2020. <span>“Sentinel-2 Data for Land Cover/Use Mapping: A Review.”</span> <em>Remote Sensing</em> 12 (14): 2291. <a href="https://doi.org/10.3390/rs12142291">https://doi.org/10.3390/rs12142291</a>.
+Phiri, D. <em>et al.</em> (2020) <span>“Sentinel-2 Data for Land Cover/Use Mapping: A Review,”</span> <em>Remote Sensing</em>, 12(14), p. 2291. doi: <a href="https://doi.org/10.3390/rs12142291">10.3390/rs12142291</a>.
 </div>
 <div id="ref-sillitoe2010" class="csl-entry" role="doc-biblioentry">
-Sillitoe, Richard H. 2010. <span>“Porphyry Copper Systems*.”</span> <em>Economic Geology</em> 105 (1): 3–41. <a href="https://doi.org/10.2113/gsecongeo.105.1.3">https://doi.org/10.2113/gsecongeo.105.1.3</a>.
+Sillitoe, R. H. (2010) <span>“Porphyry copper systems*,”</span> <em>Economic Geology</em>, 105(1), pp. 3–41. doi: <a href="https://doi.org/10.2113/gsecongeo.105.1.3">10.2113/gsecongeo.105.1.3</a>.
 </div>
 </div>
 </section>

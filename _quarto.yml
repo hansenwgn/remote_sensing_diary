@@ -3,16 +3,42 @@ project:
   output-dir: docs
 
 book:
-  title: "Learning Diary"
+  title: "Remote Sensing Cities and Environments"
   author: "Hansen Wiguna"
   date: "1/19/2023"
+  navbar: 
+    logo: image/bigben.png
+    collapse: true
+    collapse-below: sm
+    background: "#151B54"
+    foreground: "#FFFFF0"
+    #reader-mode: true
+    search: true
+    right:
+      - icon: linkedin
+        href: https://id.linkedin.com/in/hansenwiguna
+      - icon: instagram
+        href: https://www.instagram.com/hansenwgn/
+      - icon: github
+  sidebar:
+    title: "Remote"
+    style: floating
+    reader-mode: true
+  repo-url: https://github.com/hansenwgn/remote_sensing_diary
+  repo-actions: [edit, issue]
+  sharing: [linkedin, twitter, facebook]
   chapters:
     - index.qmd
     - Week1.qmd
     - Week2.qmd
+    - Week3.qmd
     - references.qmd
+    
+  favicon: "image/bigben.png"	
+  reader-mode: true
 
 bibliography: references.bib
+
 
 format:
   html:

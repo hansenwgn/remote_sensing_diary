@@ -1,6 +1,8 @@
 # Hi everyone! I'm Hansen from Indonesia {.unnumbered}
 
-![](image/hw.png)
+![](image/hw.png)\
+
+## About me {.unnumbered}
 
 I got my bachelor degree in Geological Engineering. My interests are urban analytics, data analytics, product management and public policy.
 
@@ -10,6 +12,6 @@ I then moved and worked as a Product Manager at Digital Transformation Office (D
 
 I enjoy participating in and assisting the government using data analytics and technology. The primary reason is that it affects millions of individuals. A single good government initiative or policy can assist a large number of individuals. It is crucial to consider both the function of the government bureaucracy and the ability of technology to speed up policy implementation when developing and using technology and data within the context of the government.
 
-![Had a chance meeting with Assemblyman Tom Lackey's Chief of Staff, George Andrews, California, United States](image/group.png)
+<center>![Had a chance meeting with Assemblyman Tom Lackey\'s Chief of Staff, George Andrews, California, United States](image/group.png)</center>
 
 In my free time, I love playing piano, running, writing, and cycling. You can see my writings in my [Medium](https://hansenwgn.medium.com/).
