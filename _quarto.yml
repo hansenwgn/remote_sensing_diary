@@ -10,7 +10,7 @@ book:
     logo: image/bigben.png
     collapse: true
     collapse-below: sm
-    background: "#151B54"
+    background: "#000080"
     foreground: "#FFFFF0"
     #reader-mode: true
     search: true
