@@ -20,6 +20,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -210,7 +229,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="toc-section-number">7.1</span>  Summary</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="toc-section-number">7.2</span>  Applications</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="toc-section-number">7.3</span>  Reflection</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/hansenwgn/remote_sensing_diary/edit/main/Week7.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/hansenwgn/remote_sensing_diary/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -232,8 +259,69 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="summary" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">7.1</span> Summary</h2>
+<center>
+<img src="image/cla1.png" class="img-fluid">
+</center>
+<p>Object-based image analysis (OBIA) groups pixels into meaningful objects like trees, buildings, and water bodies to process remote sensing or earth observation data. Instead of pixel-level analysis, object-level analysis provides more accurate and efficient data interpretation. OBIA includes image segmentation, object classification, and object-based spatial analysis.</p>
+<p>Sub-pixel analysis analyses the sub-pixel characteristics of individual pixels to extract more detailed information from remote sensing data. This is useful for analysing satellite imagery, where pixels represent very small areas of the earth’s surface. Sub-pixel analysis uses mathematical algorithms to estimate land cover types in each pixel based on their spectral characteristics.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/cla2.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<p></p><figcaption class="figure-caption">Simple Linear Iterative Clustering</figcaption><p></p>
+</figure>
+</div>
+</center>
+<center>
+<img src="image/cla3.png" class="img-fluid">
+</center>
+<p>Error matrix, also known as confusion matrix, compare predicted class labels to test dataset class labels. The matrix rows show actual class labels, while the columns show predicted class labels. The matrix shows the number of samples in each actual and predicted class. The matrix’s main diagonal shows correctly classified samples, while the off-diagonal elements show misclassified samples.</p>
+<p>The error matrix calculates overall accuracy, producer accuracy, user accuracy, and F1 score. These metrics quantify classification algorithm accuracy.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/cla4.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<p></p><figcaption class="figure-caption">Confusion Matrix</figcaption><p></p>
+</figure>
+</div>
+</center>
+<p>Kappa, also known as Cohen’s Kappa, is a statistical measure of class label agreement, such as the predicted and actual class labels in a classification problem. Kappa is a more robust performance measure than overall accuracy because it accounts for chance agreement between the two labels. Kappa ranges from -1 to 1, where a value of 1 indicates perfect agreement between the two sets of labels, and a value of 0 indicates agreement that is no better than chance. Negative Kappa indicates disagreement worse than chance.</p>
+<p>Kappa formula:</p>
+<p>Kappa = (Po-Pe) / (1 - Pe)</p>
+<p>where Po is the observed agreement between the labels and Pe is the expected chance agreement. Assuming the predicted and actual class label distributions are the same, the expected agreement is calculated.</p>
+<center>
+<img src="image/cla5.png" class="img-fluid">
+</center>
+<p>Cross-validation evaluates a machine learning model’s predictive accuracy on a subset of data not used to train it. Splitting the data into two or more subsets for training and testing the model is the basic idea.</p>
+<p>Spatial cross-validation accounts for spatial autocorrelation or dependence in spatial data. Spatial autocorrelation means nearby locations in a spatial dataset have similar values or characteristics, which can affect machine learning model performance. A model trained on data from one area of a map may perform poorly when applied to a different area with different spatial patterns.</p>
+<p>Spatial cross-validation preserves sample spatial dependence by splitting data into subsets. This is done by dividing the data into spatially contiguous blocks, such as grid cells or polygons, and using one set for training and another for testing. This helps evaluate the model’s ability to generalise to new spatial contexts by evaluating it on data that is spatially distinct from the data used to train it.</p>
+</section>
+<section id="applications" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">7.2</span> Applications</h2>
+<p>We can see the application from this paper “Spatial dependence between training and test sets: another pitfall of classification accuracy assessment in remote sensing.” This paper is quite advance because it suggests changing classification accuracy assessment using spatial imagery. Remotely sensed data autocorrelates spatially. Nearby pixels are more alike. Adding spatial or contextual features to the model can improve classification performance. If spatial dependence between training and test sets is ignored, it can overestimate generalisation capabilities. This paper reviews spatial autocorrelation approaches for remote sensing image classification and shows the importance of bias in accuracy metrics when spatial independence between the training and test sets is not respected. We compare three spatial and non-spatial cross-validation strategies at pixel and object levels and examine performance at different sample sizes. Spatial leave-one-out cross-validation is better for unbiased predictive error estimates when mapping two simple forest classes using Sentinel-2 data <span class="citation" data-cites="karasiak2022">(<a href="references.html#ref-karasiak2022" role="doc-biblioref">Karasiak et al. 2022</a>)</span>.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/cla6.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<p></p><figcaption class="figure-caption">Confusion Matrix</figcaption><p></p>
+</figure>
+</div>
+</center>
+</section>
+<section id="reflection" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">7.3</span> Reflection</h2>
+<p>In this week’s module, we were asked in class, “What happens if a classification model does not consider spatial autocorrelation?” If a classification model does not account for spatial autocorrelation, it may produce biassed or inaccurate predictions, especially when dealing with spatial data. This is due to the fact that spatial autocorrelation can produce non-random patterns of variability in data, which violates the assumption of independence that underpins many machine learning algorithms.</p>
+<p>When a classification model is applied to spatial data, nearby locations may have similar values or characteristics due to spatial autocorrelation. This means that a model trained on a subset of the data may not generalise well to other spatial locations with different spatial autocorrelation patterns. In other words, the model may not be able to capture the spatially dependent patterns in the data, which can result in errors in classification. Techniques such as spatial statistics and spatial cross-validation can be used to account for spatial dependence between data points and improve prediction accuracy.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-karasiak2022" class="csl-entry" role="doc-biblioentry">
+Karasiak, N., J.-F. Dejoux, C. Monteil, and D. Sheeren. 2022. <span>“Spatial Dependence Between Training and Test Sets: Another Pitfall of Classification Accuracy Assessment in Remote Sensing.”</span> <em>Machine Learning</em> 111 (7): 2715–40. <a href="https://doi.org/10.1007/s10994-021-05972-1">https://doi.org/10.1007/s10994-021-05972-1</a>.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
