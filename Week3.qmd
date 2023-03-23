@@ -73,9 +73,9 @@ Image enhancement techniques are used to improve the visual quality of remote se
 1.  Assessment of temporal variations of water quality in inland water bodies using atmospheric corrected satellite remotely sensed image data [@hadjimitsis2009]\
     \
     This paper discusses the problem of atmospheric intervention in satellite remote sensing data when monitoring water quality in inland water bodies such as reservoirs, lakes, and dams. The authors propose a simple methodology for monitoring and assessing temporal variations of water quality using an earth observation-based approach. The proposed method involves selecting a sampling area on the image, applying masking and convolution image processing filters, and using the darkest pixel atmospheric correction. The authors applied the method to a series of eight archived Landsat-5 TM images of the Lower Thames Valley area in West London and the Kourris Dam in Cyprus. They found that atmospheric correction is essential for water quality assessment studies using satellite remote sensing data as it significantly improves the water reflectance and enables effective water quality assessment to be made.\
+
 2.  Radiometric Calibration for Multispectral Camera of Different Imaging Conditions Mounted on a UAV Platform [@su11040978a]\
     \
-
 
     This paper discusses the importance of radiometric calibration in using unmanned aerial vehicle (UAV) multispectral images for quantitative remote sensing (QRS) in ecological and agricultural applications. The authors propose a systematic radiometric calibration method using linear regression to generate multispectral images with unit reflectance, which can then be used to calculate vegetation indices for monitoring vegetation phenology. The study evaluates the effects of different flight altitudes, time instants, and weather conditions on radiometric calibration using a Mini Multiple Camera Array (MCA) 6 camera. The authors find that three calibration targets (dark, moderate, and white) are optimal for the Mini MCA 6 camera and that atmospheric effects increase with flight altitude but the camera effect and atmospheric attenuation to reflectance are relatively low. The study shows that the linear regression method performs well in all weather conditions and proposes a universal calibration equation suitable for images acquired during a sunny day or even with some clouds. Overall, the paper demonstrates the importance of radiometric calibration in using UAV multispectral images for QRS and provides a systematic method for calibration.
 
@@ -83,16 +83,16 @@ Image enhancement techniques are used to improve the visual quality of remote se
 
 ## Reflection
 
-Learning about correction in remote sensing data and its applications is essential for anyone interested in working with remote sensing data for scientific or practical purposes. 
+Learning about correction in remote sensing data and its applications is essential for anyone interested in working with remote sensing data for scientific or practical purposes.
 
-1. Improves data accuracy: The accuracy of remote sensing data is often affected by atmospheric conditions, sensor calibration, and other factors. Correction techniques can help to remove or reduce these errors and improve the accuracy of the data.
+1.  Improves data accuracy: The accuracy of remote sensing data is often affected by atmospheric conditions, sensor calibration, and other factors. Correction techniques can help to remove or reduce these errors and improve the accuracy of the data.
 
-2. Enables comparative analysis: With corrected remote sensing data, it becomes possible to compare data from different sensors, times, and locations with greater accuracy. This allows researchers to detect changes and trends over time and space.
+2.  Enables comparative analysis: With corrected remote sensing data, it becomes possible to compare data from different sensors, times, and locations with greater accuracy. This allows researchers to detect changes and trends over time and space.
 
-3. Enhances interpretation: Corrected remote sensing data provides a more accurate representation of the Earth's surface, which enhances the interpretation of features and phenomena. This, in turn, can lead to better decision-making in various fields, including agriculture, forestry, urban planning, and environmental management.
+3.  Enhances interpretation: Corrected remote sensing data provides a more accurate representation of the Earth's surface, which enhances the interpretation of features and phenomena. This, in turn, can lead to better decision-making in various fields, including agriculture, forestry, urban planning, and environmental management.
 
-4. Increases efficiency: Corrected remote sensing data can save time and resources by reducing the need for ground-based measurements and increasing the speed and accuracy of data analysis.
+4.  Increases efficiency: Corrected remote sensing data can save time and resources by reducing the need for ground-based measurements and increasing the speed and accuracy of data analysis.
 
-5. Provides new insights: Corrected remote sensing data can reveal information that is not visible to the naked eye or easily detectable with ground-based measurements. This can lead to new insights and discoveries in various fields of research.
+5.  Provides new insights: Corrected remote sensing data can reveal information that is not visible to the naked eye or easily detectable with ground-based measurements. This can lead to new insights and discoveries in various fields of research.
 
 In summary, learning correction in remote sensing data and its applications is crucial for improving the accuracy, efficiency, and interpretation of remote sensing data, as well as for making new discoveries and driving progress in various fields of research and practice.
