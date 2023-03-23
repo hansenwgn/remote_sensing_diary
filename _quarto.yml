@@ -34,6 +34,9 @@ book:
     - Week3.qmd
     - Week4.qmd
     - Week5.qmd
+    - Week6.qmd
+    - Week7.qmd
+    - Week8.qmd
     - references.qmd
     
   favicon: "image/bigben.png"	

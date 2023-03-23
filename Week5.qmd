@@ -34,7 +34,7 @@ Google Earth Engine is a cloud-based platform that lets users access and analyse
 
 The example of how we utilise GEE is through paper: Application of the Random Forest Classifier to Map Irrigated Areas Using Google Earth Engine. Remote sensing and machine learning classification algorithms have enabled cost-effective, accurate irrigated area delineation. The best image classification algorithm depends on the goals, but the random forest machine learning algorithm used in this study is scalable and cost-effective. Google Earth Engine's big-data platform improved this (GEE). A two-year analysis (2019 and 2020) of 10-day Sentinel and 16-day Landsat data produced the 20-m-resolution cultivated land dataset. The GEE cloud-computing platform managed and processed large volumes of remotely sensed products and reference training and validation datasets from various sources for the random forest algorithm. GEE's methods helped classify petabyte-volume big data into more accurate irrigated areas quickly. The developed, cultivated areas dataset is 88% accurate. Policymakers need improved irrigated area mapping outputs to evaluate large and complex irrigation systems. They are essential for field-to-national irrigation monitoring [@magidi2021].
 
-<center>![NDVI time-series data derived from Landsat images, compiled using Google Earth Engine, were then used to classify and distinguish irrigated from rainfed areas](image/gee4.png)</center>
+<center>![NDVI time-series data derived from Landsat images, compiled using Google Earth Engine, were then used to classify and distinguish irrigated from rainfed areas](image/gee4.png){width="80%"}</center>
 
 ## Reflection
 

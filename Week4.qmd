@@ -24,7 +24,7 @@ We can utilise remote sensing data to support the initiative from the government
 
 Study case from Morocco in using satellites data in monitoring air pollution. In this study, they used the EUMETCast service to create a remote sensing system based on data from polar satellites (MetOp) and geostationary satellites (Meteosat). A Java-based application was used to collect and process data. Using Python libraries, an interactive map of Morocco was designed and developed, displaying real-time values of environmental and pollution datasets. The application implemented displays various industrial activity locations as well as related densities of emitted gases. The application could collect and process data in real and near-real time, as well as display results in figures and specific charts. The emissions from these areas, as depicted on the map, may have an impact on neighbouring zones, which include cities and villages. These findings could help policymakers find appropriate solutions to potential pollution-related problems [@boudrikisemlali2019].
 
-<center>![CO densities of 2017/04/27 at 20h in Morocco](image/co1.png){width="60%"}</center>
+<center>![CO densities of 2017/04/27 at 20h in Morocco](image/co1.png){width="50%"}</center>
 
 SAT-CEP-monitor uses complex event processing and satellite remote sensing to monitor air quality. CEP technology integrates batch and streaming processing to enable NRT satellite sensor data processing. Thus, we can obtain satellite data from areas of interest and provide valuable and user-friendly information on important pollutants. Even without MGS, we can obtain and visualise air quality data from anywhere on Earth in under 40 minutes [@sat-cep-2021].
 

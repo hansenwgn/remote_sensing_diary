@@ -73,7 +73,3 @@ Porphyry copper deposits (PCDs) supply three-quarters of the world's Cu (Copper)
 ## Reflection
 
 From this new concept that I learned, I'm thinking to apply the sentinel data analysis to monitor the Kalimantan Island in Indonesia. Indonesia is in the process of moving the capital city from Jakarta (Java Island) to Kalimantan Island ([website](https://ikn.go.id/en)). One of the main principles of the new capital city (IKN) project is designed according to nature. Over 75% of the IKN's Governmental Zone will remain green [@ikn-ib2021]. We can utilise remote sensing data to monitor land cover/use, notably crop, forest, urban area, and water resource monitoring. Monitoring city development is difficult, so if it can be aided, particularly in an automated scheme, through the use of remote sensing data, it will substantially simplify the government's task.
-
-## Question
-
-1.  How to combine {width="60%"} and fig-align for caption/image in quarto image..
