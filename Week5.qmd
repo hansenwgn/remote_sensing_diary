@@ -1,0 +1,41 @@
+# An Introduction to Google Earth Engine (GEE)
+
+## Summary
+
+<center>![](image/gee1.png)</center>
+
+Google Earth Engine is a cloud-based platform that lets users access and analyse massive amounts of geospatial data by leveraging Google's computing infrastructure. It includes a comprehensive set of tools and capabilities for working with remote sensing and other geospatial data, such as visualisation, analysis, and data manipulation.
+
+<center>![](image/gee2.png)</center>
+
+1.  Earth Engine Data Catalog: GEE provides access to a vast amount of geospatial data from various sources, such as satellite imagery, climate data, and terrain data. The Earth Engine Data Catalog is a centralised repository where users can browse and access these datasets.
+
+2.  Earth Engine Code Editor: GEE's Code Editor is a web-based development environment that allows users to write and run JavaScript or Python scripts to analyse geospatial data. The Code Editor includes a number of tools and functions that make working with geospatial data easier, such as map visualisation and image processing.
+
+3.  Earth Engine API: Earth Engine API (Application Programming Interface): The Earth Engine API (Application Programming Interface) is a collection of functions and classes that allow developers to interact with GEE programmatically. It enables the incorporation of GEE's geospatial data processing and analysis capabilities into customised applications and workflows.
+
+4.  Earth Engine JavaScript and Python APIs: The Earth Engine APIs in JavaScript and Python: GEE provides APIs in both JavaScript and Python, allowing users to select the language that best suits their needs for data processing and analysis.
+
+5.  Earth Engine Fusion Tables: Earth Engine Fusion Tables: Using Google Fusion Tables, GEE users can upload and share data tables. Users can use this feature to create and share custom data layers to supplement their geospatial analyses.
+
+<center>![](image/gee3.png)</center>
+
+1.  Loading image collections: Image collections are groups of images in GEE that share common properties such as spatial resolution, data type, and date range. The 'ee.ImageCollection' function loads image collections and allows users to filter them by date range, location, or other properties.
+
+2.  Reducing images: GEE includes image reduction functions such as 'reduceRegion', 'reduceRegionToImage', and 'reduceRegions'. Users can use these functions to aggregate pixel values within regions of interest, such as administrative boundaries or study areas, to generate summary statistics such as mean, median, and standard deviation.
+
+3.  Regression: Regression analysis is carried out in GEE using the 'ee.Reducer.linearRegression' function, which computes the coefficients of a linear regression model for a given set of predictors and response variables. This function can be used to identify relationships between different geospatial datasets, such as temperature and vegetation cover.
+
+4.  Joins: The 'ee.Join' function in GEE allows users to join two image collections or tables based on a common property such as a unique ID or a spatial relationship. This function is useful for combining datasets from various sources, such as satellite imagery and ground-based observations.
+
+5.  Filtering: The 'ee.Filter' and 'ee.Filter.inList' functions in GEE allow you to filter image or feature collections based on specific criteria. These functions can be used to remove cloud cover and other undesirable features from satellite imagery, as well as to select specific features within a given area of interest.
+
+## Applications
+
+The example of how we utilise GEE is through paper: Application of the Random Forest Classifier to Map Irrigated Areas Using Google Earth Engine. Remote sensing and machine learning classification algorithms have enabled cost-effective, accurate irrigated area delineation. The best image classification algorithm depends on the goals, but the random forest machine learning algorithm used in this study is scalable and cost-effective. Google Earth Engine's big-data platform improved this (GEE). A two-year analysis (2019 and 2020) of 10-day Sentinel and 16-day Landsat data produced the 20-m-resolution cultivated land dataset. The GEE cloud-computing platform managed and processed large volumes of remotely sensed products and reference training and validation datasets from various sources for the random forest algorithm. GEE's methods helped classify petabyte-volume big data into more accurate irrigated areas quickly. The developed, cultivated areas dataset is 88% accurate. Policymakers need improved irrigated area mapping outputs to evaluate large and complex irrigation systems. They are essential for field-to-national irrigation monitoring [@magidi2021].
+
+<center>![NDVI time-series data derived from Landsat images, compiled using Google Earth Engine, were then used to classify and distinguish irrigated from rainfed areas](image/gee4.png)</center>
+
+## Reflection
+
+Learning the GEE platform can be beneficial if we understand how and when to apply the platform to our specific goals and use cases. Google Earth Engine (GEE) can be a useful tool for students studying geography, environmental science, agriculture, forestry, urban planning, and other subjects. GEE can be used for a variety of purposes, including: 1. Track changes in land cover and land use over time using satellite imagery to track changes in land cover and land use. 2. Analyze environmental data: GEE gives you access to a variety of environmental data, such as climate data, air quality data, and vegetation indices. 3. Conduct geospatial analysis: GEE includes a robust set of geospatial analysis tools, such as spatial data processing, spatial statistics, and spatial modelling. 4. Develop interactive visualisations: GEE includes a number of tools for developing interactive maps and visualisations, which can be useful for presenting and communicating complex data.
